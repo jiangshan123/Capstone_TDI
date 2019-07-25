@@ -13,6 +13,10 @@ import matplotlib.pyplot as plt
 # calculate Euclidean distance
 def euclDistance(vector1, vector2):
 	return sqrt(sum(pow(vector2 - vector1, 2)))
+
+# calculate Absolute distance
+def absDistance(vector1, vector2):
+	return sqrt(sum(abs(vector2 - vector1)))
  
 # init centroids with random samples
 def initCentroids(dataSet, k):
