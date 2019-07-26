@@ -1,0 +1,11 @@
+,feature1,feature2,feature3,feature4,feature5,feature6,feature7,feature8,feature9,feature10
+P1,purchases,total_customer_type,total_customer_type,revenue,order_type_renewal,predicted_future_ltr_10yr,"COLOR_WHERE_\at_home\""""",pages_notloggedin,"GRAY_LEVEL_\more_than_50\""""",FREQUENCY_4
+P2,utm_facebook,browser_facebook,pages_welcome,medium_fbigan,medium_other,device_mobile,pages_shop,pages_color-advisor,visitor_age,order_type_renewal
+P3,medium_email,utm_google,utm_iterable,device_desktop,medium_organic,medium_cpc,browser_chrome,pages_product,pages_shopping,utm_bronto
+P4,device_desktop,medium_other,browser_chrome,browser_ie,order_type_one-time,utm_other,utm_facebook,browser_firefox,pages_landing,pages_notloggedin
+P5,"DO_WITH_HAIR_\change\""""",utm_google,customer_type_color,medium_cpc,pages_color-advisor,utm_direct,medium_none,medium_organic,"GRAY_LEVEL_\no_gray\""""",pages_product
+P6,utm_direct,medium_none,visit_count,pages_shopping,customer_type_gloss,customer_type_rootreboot,browser_safari,customer_type_colorbar,device_tablet,order_type_one-time
+P7,medium_email,utm_bronto,"HAIR_COLOR_\blonde\""""","NATURAL_HAIR_COLOR_\blonde\""""",customer_type_color,utm_iterable,pages_notloggedin,visit_count,pages_product,pages_account
+P8,"HAIR_COLOR_\brown\""""","NATURAL_HAIR_COLOR_\brown\""""",device_desktop,"GRAY_LEVEL_\less_than_50\""""",customer_type_color,browser_chrome,"DO_WITH_HAIR_\change\""""",pages_account,medium_none,utm_direct
+P9,customer_type_gloss,"DO_WITH_HAIR_\change\""""",customer_type_colorbar,pages_colorbar,order_type_subscription,customer_type_other,browser_chrome,"GRAY_LEVEL_\no_gray\""""",FREQUENCY_8,"NATURAL_HAIR_COLOR_\blonde\"""""
+P10,"NATURAL_HAIR_COLOR_\black\""""","HAIR_COLOR_\black\""""",pages_colorbar,customer_type_colorbar,"COLOR_WHERE_\at_home\""""",order_type_subscription,visitor_age,FREQUENCY_2,FREQUENCY_4,FREQUENCY_3
