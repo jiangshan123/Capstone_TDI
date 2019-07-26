@@ -1,0 +1,13 @@
+heroku login
+git add .
+git commit -am "make it better"
+git subtree push --prefix web heroku master
+
+
+https://kmeans-web.herokuapp.com/
+
+
+git status
+git add .
+git commit -m "start web development using flask"
+git push origin master
