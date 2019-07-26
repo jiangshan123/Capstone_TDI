@@ -7,8 +7,12 @@ def index():
     return render_template('index.html')
 
 @app.route("/kmeans")
-def test():
+def kmeans():
     return render_template('kmeans.html')
+
+@app.route("/visulization")
+def visulization():
+    return render_template('visulization.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
