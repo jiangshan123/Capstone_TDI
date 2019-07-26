@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Flask"
+    return "This is a user-friendly k-means machine learning website"
 
 @app.route("/test")
 def test():
