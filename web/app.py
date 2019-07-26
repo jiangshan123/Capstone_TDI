@@ -1,9 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template
+
 app = Flask(__name__)
 
 @app.route("/")
-def home():
-    return "This is a user-friendly k-means machine learning website"
+def index():
+    return render_template('index.html')
 
 @app.route("/test")
 def test():
