@@ -161,7 +161,6 @@ if __name__ == "__main__":
     import random
     import sys
     from time import time
-    import numpy as np
 
     N = 10000
     dim = 10
