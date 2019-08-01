@@ -12,7 +12,7 @@ from scipy.sparse import issparse  # $scipy/sparse/csr.py
 __date__ = "2019-07-25"
 
 #...............................................................................
-def kmeans( X, centres, delta=.001, maxiter=10, metric="euclidean", p=2, verbose=1 ):
+def kmeans( X, centres, delta=.001, maxiter=10, metric="euclidean"*dim, p=2, verbose=1 ):
     """ centres, Xtocentre, distances = kmeans( X, initial centres ... )
     in:
         X N x dim  may be sparse
@@ -46,7 +46,7 @@ def kmeans( X, centres, delta=.001, maxiter=10, metric="euclidean", p=2, verbose
     allx = np.arange(N)
     prevdist = 0
     for jiter in range( 1, maxiter+1 ):
-        D = cdist_sparse( X, centres, metric=metric, p=p )  # |X| x |centres|
+        D = cdist_sparse( X, centres, metric=metric[jiter], p=p )  # |X| x |centres|
         xtoc = D.argmin(axis=1)  # X -> nearest centre
         distances = D[allx,xtoc]
         avdist = distances.mean()  # median ?
