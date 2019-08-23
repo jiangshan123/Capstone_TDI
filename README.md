@@ -46,11 +46,11 @@ Cluster customers (using K-means or DTs) using purchase history and browsing beh
 * [find best k-values](https://github.com/jiangshan123/Capstone_TDI/blob/master/results/kmeans/Elbow_Method.png)
 * build k-means models
 * Principal component analysis (PCA) 
-* Retrace feature importance from PCA, feature importance can be found here:
-* Visulization: PCA projection, t-SNE projection, pair-plots
+* Retrace feature importance from PCA, feature importance can be found here: https://github.com/jiangshan123/Capstone_TDI/blob/master/results/PCA/PCA_features_full.csv
+* Visulization: [PCA projection](https://github.com/jiangshan123/Capstone_TDI/blob/master/results/visulization/PCA_P1P2.png), [t-SNE projection](https://github.com/jiangshan123/Capstone_TDI/blob/master/results/visulization/tSNE_P1P2.png), [pair-plots](https://github.com/jiangshan123/Capstone_TDI/blob/master/results/visulization/pairplots.png)
 * Assign new data to clusters
 * Kmeans clustering using weighted features with varias loss function
-
+<img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/demo_interactive.png" width="480">
 ## Kmeans Algorithm with specified distance funtions for each weighted features
 Kmeans algorithm package can be found here:
 * Uses any of the 20-odd distances in scipy.spatial.distance, or a user function.
