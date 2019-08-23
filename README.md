@@ -24,5 +24,16 @@ Clustering is a difficult problem because there isn't a good way to evaluate how
 ### Delivery
 Cluster customers (using K-means or DTs) using purchase history and browsing behavior where an end-user may prioritize (add weight) or eliminate features using a web-app front-end.
 
+## Data Source
+## Demo Data
+
+* Demo Data can be found here: https://github.com/jiangshan123/Capstone_TDI/blob/master/data/user_data_rui_liu.csv
+
+* Demo data is a CSV file with some anonymized user data. The data corresponds to customers who purchase hair care products. Each row is a user (with a corresponding user_id) and there are 88759 users. The table contains 109 columns, or features, where user_id is considered a feature.
+
+* There is no transaction data, but we summarize customers' transaction history using lifetime total revenue (LTR). This is the column in the dataset with label "predicted_future_ltr_10yr". Also included are revenue (total revenue so far) and purchases (total number of orders so far).
+
+* There are also user-profile questions that were provided via an online Quiz. The 109 columns include categorical data that has been one-hot-encoded. 
+
 ## Heroku website
 https://kmeans-web.herokuapp.com/ 
