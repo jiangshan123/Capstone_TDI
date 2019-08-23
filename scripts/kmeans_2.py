@@ -9,7 +9,7 @@ from scipy.spatial.distance import cdist  # $scipy/spatial/distance.py
     # http://docs.scipy.org/doc/scipy/reference/spatial.html
 from scipy.sparse import issparse  # $scipy/sparse/csr.py
 
-__date__ = "2019-07-25"
+__date__ = "2019-08-23"
 
 #...............................................................................
 def kmeans( X, centres, delta=.001, maxiter=10, metric="euclidean"*dim, p=2, verbose=1 ):
