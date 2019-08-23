@@ -41,6 +41,21 @@ Cluster customers (using K-means or DTs) using purchase history and browsing beh
 * [Feature-Feature relationships](https://github.com/jiangshan123/Capstone_TDI/tree/master/results/feature_analysis/f-fmap.png), [heatmaps](https://github.com/jiangshan123/Capstone_TDI/tree/master/results/feature_analysis/heatmap.png)
 * cleaned data can be found here: https://github.com/jiangshan123/Capstone_TDI/blob/master/data/user_data_cleaned.csv
 
+## Kmeans_sklearn
+[Kmeans_sklearn Pipline](https://github.com/jiangshan123/Capstone_TDI/blob/master/notebooks/kmeans_sklearn.ipynb):
+* find best k-values
+* build k-means models
+* Principal component analysis (PCA) 
+* Retrace feature importance from PCA, feature importance can be found here:
+* Visulization: PCA projection, t-SNE projection, pair-plots
+* Assign new data to clusters
+* Kmeans clustering using weighted features with varias loss function
+
+## Kmeans Algorithm with specified distance funtions for each weighted features
+Kmeans algorithm package can be found here:
+* Uses any of the 20-odd distances in scipy.spatial.distance, or a user function.
+* Provides suggested distances depend on how the data is distributed. Normally distributed data should use least squares, while exponential or long tail should use absolute error.
+* Customers can apply weights on certain features
 
 ## Heroku website
 https://kmeans-web.herokuapp.com/ 
