@@ -43,7 +43,7 @@ Cluster customers (using K-means or DTs) using purchase history and browsing beh
 
 ## Kmeans_sklearn
 [Kmeans_sklearn Pipline](https://github.com/jiangshan123/Capstone_TDI/blob/master/notebooks/kmeans_sklearn.ipynb):
-* find best k-values
+* [find best k-values](https://github.com/jiangshan123/Capstone_TDI/blob/master/results/kmeans/Elbow_Method.png)
 * build k-means models
 * Principal component analysis (PCA) 
 * Retrace feature importance from PCA, feature importance can be found here:
