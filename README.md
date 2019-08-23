@@ -1,4 +1,4 @@
-# Capstone_TDI
+# Customer-friendly ML clustering tool
 Capstone project at The data incubator, working with Retina AI. 
 
 ## Business Motivation
