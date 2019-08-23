@@ -5,6 +5,8 @@ Capstone project working with Retina AI company.
 
 ![text](https://github.com/jiangshan123/Capstone_TDI/blob/master/images/SmallBusiness.png | width=48)
 
+<img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/SmallBusiness.png" width="48">
+
 
 ## Heroku website
 https://kmeans-web.herokuapp.com/ 
