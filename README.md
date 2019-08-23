@@ -3,9 +3,8 @@ Capstone project working with Retina AI company.
 
 ## Business Motivation
 
-![text](https://github.com/jiangshan123/Capstone_TDI/blob/master/images/SmallBusiness.png | width=48)
 
-<img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/SmallBusiness.png" width="48">
+<img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/SmallBusiness.png" width="480">
 
 
 ## Heroku website
