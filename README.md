@@ -25,8 +25,6 @@ Clustering is a difficult problem because there isn't a good way to evaluate how
 Cluster customers (using K-means or DTs) using purchase history and browsing behavior where an end-user may prioritize (add weight) or eliminate features using a web-app front-end.
 
 ## Data Source
-## Demo Data
-
 * Demo Data can be found here: https://github.com/jiangshan123/Capstone_TDI/blob/master/data/user_data_rui_liu.csv
 
 * Demo data is a CSV file with some anonymized user data. The data corresponds to customers who purchase hair care products. Each row is a user (with a corresponding user_id) and there are 88759 users. The table contains 109 columns, or features, where user_id is considered a feature.
@@ -35,5 +33,14 @@ Cluster customers (using K-means or DTs) using purchase history and browsing beh
 
 * There are also user-profile questions that were provided via an online Quiz. The 109 columns include categorical data that has been one-hot-encoded. 
 
+## Data Wrangling
+Data Cleanning pipline: [Capstone_TDI](https://github.com/jiangshan123/Capstone_TDI/blob/master/notebooks/data_wrangling.ipynb) project.
+* Setup: load packages/setup path
+* Load Demo Data
+* Deal with missing data
+* Deal with string data using Labelencode
+* Preliminary statistical data analysis
+* Data Visualization
+* Save cleaned Data
 ## Heroku website
 https://kmeans-web.herokuapp.com/ 
