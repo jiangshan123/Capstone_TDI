@@ -51,11 +51,16 @@ Cluster customers (using K-means or DTs) using purchase history and browsing beh
 * Assign new data to clusters
 * Kmeans clustering using weighted features with varias loss function
 <img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/demo_interactive.png" width="480">
+
 ## Kmeans Algorithm with specified distance funtions for each weighted features
-Kmeans algorithm package can be found here:
+Kmeans algorithm package can be found here:https://github.com/jiangshan123/Capstone_TDI/tree/master/scripts
 * Uses any of the 20-odd distances in scipy.spatial.distance, or a user function.
 * Provides suggested distances depend on how the data is distributed. Normally distributed data should use least squares, while exponential or long tail should use absolute error.
 * Customers can apply weights on certain features
 
 ## Heroku website
+Develops Customer-friendly website using Flask+Heroku, still in process.
 https://kmeans-web.herokuapp.com/ 
+
+<img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/demo_web.png" width="480">
+
