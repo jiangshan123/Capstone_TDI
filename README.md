@@ -60,7 +60,8 @@ Kmeans algorithm package can be found here:https://github.com/jiangshan123/Capst
 
 ## Heroku website
 Develops Customer-friendly website using Flask+Heroku, still in process.
+
 https://kmeans-web.herokuapp.com/ 
 
-<img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/demo_web.png" width="480">
+<img src="https://github.com/jiangshan123/Capstone_TDI/blob/master/images/demo_web.png" width="600">
 
