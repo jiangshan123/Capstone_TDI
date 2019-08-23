@@ -34,11 +34,13 @@ Cluster customers (using K-means or DTs) using purchase history and browsing beh
 * There are also user-profile questions that were provided via an online Quiz. The 109 columns include categorical data that has been one-hot-encoded. 
 
 ## Data Wrangling
-[Data Wrangling Pipline](https://github.com/jiangshan123/Capstone_TDI/blob/master/notebooks/data_wrangling.ipynb) project.
+[Data Wrangling Pipline](https://github.com/jiangshan123/Capstone_TDI/blob/master/notebooks/data_wrangling.ipynb):
 * Clean missing data, labelencode / onehotencode string types data
 * Preliminary statistical data analysis
-* Data Visualization: [boxplot](https://github.com/jiangshan123/Capstone_TDI/tree/master/results/feature_analysis/boxplot_example.png), histgram and so on
-* Feature-Feature relationships, heatmaps
-* cleaned data can be found here: 
+* Data Visualization: [boxplot](https://github.com/jiangshan123/Capstone_TDI/tree/master/results/feature_analysis/boxplot_example.png), [histgram](https://github.com/jiangshan123/Capstone_TDI/tree/master/results/feature_analysis/hist_example.png) and so on
+* [Feature-Feature relationships](https://github.com/jiangshan123/Capstone_TDI/tree/master/results/feature_analysis/f-fmap.png), [heatmaps](https://github.com/jiangshan123/Capstone_TDI/tree/master/results/feature_analysis/heatmap.png)
+* cleaned data can be found here: https://github.com/jiangshan123/Capstone_TDI/blob/master/data/user_data_cleaned.csv
+
+
 ## Heroku website
 https://kmeans-web.herokuapp.com/ 
